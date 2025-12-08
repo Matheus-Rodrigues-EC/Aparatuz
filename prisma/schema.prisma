@@ -24,7 +24,7 @@ model Barbershop {
   services    Service[]
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
-  Booking     Booking[]
+  bookings    Booking[]
 }
 
 model Service {
